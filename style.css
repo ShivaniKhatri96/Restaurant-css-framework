@@ -1,7 +1,11 @@
-body {
+.fontHeader {
     font-family: 'Lobster', cursive;
 }
 .jumbo {
     background: url(./allpictures/starlight.jpg);
     color: floralwhite;
+}
+body {
+    background-color: #F3F4ED;
+    font-family: 'Nunito', sans-serif;
 }

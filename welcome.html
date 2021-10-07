@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Restaurant Starlight</title>
 </head>
 
 <body>
+    <!-- navbar is created -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -45,22 +49,63 @@
             </div>
         </div>
     </nav>
+    <!-- jumbotron is added with background picture and also button is added -->
     <header>
-        <div class="p-5 mb-4 bg-light rounded-3 jumbo">
+        <div class="p-5 mb-4 bg-light rounded-3 jumbo fontHeader">
             <div class="container-fluid py-5">
-                        <h1 class="display-5 fw-bold">Starlight</h1>
-                        <h2 class="display-6 fst-italic pb-3">The place to be</h2>
-                <p class="col-12 col-md-8 fs-4 pb-2">Enjoy the pleasant flavor under the night sky with the meals that remind
+                <h1 class="display-5 fw-bold">Starlight</h1>
+                <h2 class="display-6 fst-italic pb-3">The place to be</h2>
+                <p class="col-12 col-md-8 fs-4 pb-2">Enjoy the pleasant flavor under the night sky with the meals that
+                    remind
                     you of home</p>
                 <button class="btn btn-primary btn-lg">Reserve Table</button>
             </div>
         </div>
     </header>
-    <div class="col-sm-3 align-self-center">
-        <img src="img/logo.png" class="img-fluid">
+    <!-- panels are created using card -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <img src="allpictures/nepalithaliv1.jpg" class="card-img-top" alt="A picture of Nepali food">
+                    <div class="card-body">
+                        <h5 class="card-title">This month's promotion</h5>
+                        <p class="card-text"><span class="fw-bold fs-5">Nepali thali</span> made with love and care for
+                            you to enjoy. This dish comes with rice, meat, beans and vegetables all for just €32. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <img src="allpictures/restaurant.jpg" class="card-img-top" alt="A picture of Nepali food">
+                    <div class="card-body">
+                        <h5 class="card-title">Upcoming Events</h5>
+                        <p class="card-text"><span class="fw-bold fs-5">Singles night </span>where single people are
+                            encouraged to get to know each other. You might make a new friend or who knows, you might
+                            find your soulmate instead ! </span></p>
+                        <p class="card-text"><span class="fw-bold fs-5">Karaoke night </span> to sing your favourite
+                            song under the starry night, relax and unwind from the stress from work.
+                        </p>
+                        <p class="card-text"><span class="fw-bold fs-5">Charity event </span> to encouarage everyone to
+                            help the people in need. In return, we promise to make it a wonderful night. There will be
+                            surprises. Don't miss it !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <footer>
+        <div class="p-auto mt-4 bg-light rounded-3 jumbo">
+            <div class="container-fluid p-5 d-flex justify-content-center">
+                <span>Thank you for stopping by!</span>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
