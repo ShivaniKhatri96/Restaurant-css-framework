@@ -9,3 +9,6 @@ body {
     background-color: #F3F4ED;
     font-family: 'Nunito', sans-serif;
 }
+.padding {
+    margin-left: -5em;
+}
