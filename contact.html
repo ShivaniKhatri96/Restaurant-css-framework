@@ -63,13 +63,52 @@
         </div>
     </header>
     <!-- contact form is created-->
-    <div>
-        <span class="fontHeader fs-3 ps-2">Contact us</span>
-        <form>
-
+    <div class="col-10 col-md-6 offset-1 offset-md-3">
+            <span class="fontHeader fs-3">Contact us</span>
+            <form>
+                <div class="row mb-3">
+                        <label for="firstname" class="col-12 col-md-2 col-form-label">First Name</label>
+                      <div class="col-12 col-md-10">
+                        <input type="text" class="form-control" id="firstname" placeholder="First name" aria-label="First name">
+                      </div>
+                </div>
+                <div class="row mb-3">
+                        <label for="lastname" class="col-12 col-md-2 col-form-label">Last Name</label>
+                      <div class="col-12 col-md-10">
+                        <input type="text" class="form-control"  id="firstname" placeholder="Last name" aria-label="Last name">
+                      </div>
+                </div>
+                <div class="row mb-3">
+                        <label for="emailid" class="col-12 col-md-2 col-form-label">Email</label>
+                      <div class="col-12 col-md-10">
+                        <input type="email" class="form-control" id="emailid" placeholder="mail@gmail.com" aria-describedby="email">
+                      </div>
+                </div>
+                <div class="row mb-3">
+                        <label for="Subjectmessage" class="col-12 col-md-2 col-form-label">Subject</label>
+                      <div class="btn-group col-12 col-md-10">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown"  data-bs-auto-close="true" aria-expanded="false">Relevant Title</button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li class="dropdown-item">Reservation issues</li>
+                            <li class="dropdown-item">Cancelling reservation</li>
+                            <li class="dropdown-item">Feedback about staff</li>
+                            <li class="dropdown-item">Feedback about food</li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="row mb-3">
+                        <label for="feedback" class="col-12 col-md-2 col-form-label">Your Feedback</label>
+                      <div class="col-12 col-md-10">
+                      <textarea class="form-control" id="feedback" rows="6"></textarea>
+                      </div>
+                </div>
+           <div class="offset-md-2 col-md-10">
+               <!-- if you add offset first then it applies offset to only first two columns -->
+            <button type="send" class="btn btn-primary px-4">Send</button>
+           </div>
         </form>
-
-    </div>
+        </div>
+          
     <footer>
         <div class="p-auto mt-4 bg-light rounded-3 jumbo">
             <div class="container-fluid p-5 d-flex justify-content-center">
