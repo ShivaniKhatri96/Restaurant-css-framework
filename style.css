@@ -9,6 +9,11 @@ body {
     background-color: #F3F4ED;
     font-family: 'Nunito', sans-serif;
 }
-.padding {
+/* .padding { 
     margin-left: -5em;
+}*/
+
+.bgmenu {
+    background: url(./allpictures/vegetables1.jpg) no-repeat;
+    background-size: cover;
 }
