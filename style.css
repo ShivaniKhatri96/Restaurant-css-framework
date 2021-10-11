@@ -9,11 +9,12 @@ body {
     background-color: #F3F4ED;
     font-family: 'Nunito', sans-serif;
 }
-/* .padding { 
-    margin-left: -5em;
-}*/
-
 .bgmenu {
     background: url(./allpictures/vegetables1.jpg) no-repeat;
     background-size: cover;
+}
+@media (min-width: 768px) { 
+    .one {
+        padding-top: 3%;
+    }
 }
