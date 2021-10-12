@@ -20,10 +20,9 @@ Bootstrap is used to create this website.
 Yes, the website is responsive!
 ***
 ### Screenshots
-![welcome page small version](/allpictures/screenshots/welcomesv.jpg)
-![welcome page small version navbar](/allpictures/screenshots/welcomenavsv.jpg)
-![welcome page medium version navbar](/allpictures/screenshots/welcomemd.jpg)
-<img src="./allpictures/screenshots/welcomemd.png" width="400" height="200" />
+<img src="./allpictures/screenshots/welcomesv.jpg" width="200" height="400" />
+<img src="./allpictures/screenshots/welcomenavsv.jpg" width="200" height="400" />
+<img src="./allpictures/screenshots/welcomemd.png" width="500" height="300" />
 
 
 
