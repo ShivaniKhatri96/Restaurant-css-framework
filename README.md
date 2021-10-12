@@ -22,6 +22,9 @@ Yes, the website is responsive!
 ### Screenshots
 ![welcome page small version](/allpictures/screenshots/welcomesv.jpg)
 ![welcome page small version navbar](/allpictures/screenshots/welcomenavsv.jpg)
+![welcome page medium version navbar](/allpictures/screenshots/welcomemd.jpg)
+<img src="./allpictures/screenshots/welcomemd.png" width="200" height="200" />
+
 
 
 
